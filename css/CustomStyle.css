@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor : #53ec62;
+    --secondColor : #ff6868;
+    --bodyColor : #f5f5f5;
+    --green : #39db4a;
+    --titleColor : #ff8a8a;
+}
+
+body{
+    background-color: var(--bodyColor);
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul li{
+    list-style: none;
+}
+.key{
+    color: var(--mainColor);
+}
+.title{
+    color: var(--secondColor);
+    text-align: center;
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
+.active{
+    color: var(--mainColor);
+}
+.img-100{
+    width: 100px;
+}
+.img-180{
+    width: 180px;
+}
+.img-200{
+    width: 200px;
+}
+.img-250{
+    width: 250px;
+}
+.bg-green{
+    background-color: var(--green);
+}
+.bg-green{
+    padding: 10px 18px;
+}
+.active-star{
+    color: yellow;
+}
+.active-like{
+    color: var(--secondColor);
+}
+.box{
+    padding: 12px 10px;
+    background-color: #fff;
+    box-shadow: 2px 8px 8px 1px #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    width: 100%;
+}
+.fx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-sb{
+    justify-content: space-between;
+}
+.fx-start{
+    align-items: start;
+}
+.flex1{
+    flex: 1;
+}
+.algin-items-base{
+    align-items: baseline;
+}
+/*  */
+.grid-box{
+    display: grid;
+    grid-template-columns : repeat(auto-fill,minmax(200px,auto));
+    gap: 18px;
+}
+/*  */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+/*  */
+.pt-20{
+    padding-top: 20px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pt-90{
+    padding-top: 90px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+/*  */
+.pl-15{
+    padding-left: 15px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+/*  */
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+/*  */
+.pr-15{
+    padding-right: 15px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+/*  */
+.ml-mr-auto{
+    margin: auto;
+}
+.m-auto{
+    margin: auto;
+}
+.mt-40{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top: 50px;
+}
+
+/*  */
+.border-r-35{
+    border-radius: 35px;
+}
+.border-r-25{
+    border-radius: 25px;
+}
+.border-r-10{
+    border-radius: 10px;
+}
+/*  */
